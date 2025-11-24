@@ -1,0 +1,516 @@
+2025-11-23 07:44:11 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 07:44:11 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/rna-x
+2025-11-23 07:45:04 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 07:45:04 | INFO     | rna_generator | Loading tokenizer and RT model from: /data1/sobhan/RNAtranslatorX/weights/checkpoint-45000
+2025-11-23 07:45:05 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 07:45:43 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 07:45:43 | INFO     | rna_generator | Loading tokenizer and RT model from: /data1/sobhan/RNAtranslatorX/weights/checkpoint-45000
+2025-11-23 07:45:43 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 07:46:01 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 07:46:01 | INFO     | rna_generator | Loading tokenizer and RT model from: /data1/sobhan/RNAtranslatorX/weights/checkpoint-45000
+2025-11-23 07:46:01 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 07:47:15 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 07:47:15 | INFO     | rna_generator | Loading tokenizer and RT model from: /data1/sobhan/RNAtranslatorX/weights/checkpoint-45000
+2025-11-23 07:47:15 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 07:47:16 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 07:48:21 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 07:48:21 | INFO     | rna_generator | Loading tokenizer and RT model from: /data1/sobhan/RNAtranslatorX/weights/checkpoint-45000
+2025-11-23 07:48:22 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 07:48:23 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 07:48:25 | INFO     | rna_generator | Seed RNA: RNA:AAGGUGUUGACAUCUCACCCCCGGGCAAGGGCCUGGCAUCUGCCCCGCUC  | score=0.8355
+2025-11-23 07:52:11 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 07:52:11 | INFO     | rna_generator | Loading tokenizer and RT model from: /data1/sobhan/RNA-X/weights/checkpoint-45000
+2025-11-23 07:52:11 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 07:52:12 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 07:52:14 | INFO     | rna_generator | Seed RNA: RNA:CGCGGUGCCCCCCGUAUGCACCUCCCAAAGUACGUAUACCCUGUCAGGCU  | score=0.0000
+2025-11-23 07:53:08 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 07:53:08 | INFO     | rna_generator | Loading tokenizer and RT model from: /data1/sobhan/RNA-X/weights/checkpoint
+2025-11-23 07:53:08 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 07:53:09 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 07:53:12 | INFO     | rna_generator | Seed RNA: RNA:GGCGCUUUUACCCCUUAGGUCUCAUAUACAUGGUAUAACGUGCGUGCUCU  | score=0.0000
+2025-11-23 07:53:25 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 07:53:25 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 07:53:25 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 07:53:27 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 07:53:29 | INFO     | rna_generator | Seed RNA: RNA:AUACGUGGCCUGCGUCCUGAGGGAGAGCUAGGUAAGCGGUUUUAUGCUCU  | score=0.0001
+2025-11-23 08:08:12 | INFO     | rna_generator | Mask ratio: 0.13952337441791787, Rounds: 1681, Best score: 0.9610491991043091, Best RNA: RNA:CCUCCGCCCUGCGCUUUUUGGCUUCGGGGCUGUUCGUUCCGUUGGAUGGC, high confidence: True
+2025-11-23 08:08:12 | INFO     | rna_generator | -------------------------------------
+2025-11-23 08:08:12 | INFO     | rna_generator | Iterative Genreation completed: score=0.9610, rna sequence=RNA:CCUCCGCCCUGCGCUUUUUGGCUUCGGGGCUGUUCGUUCCGUUGGAUGGC
+2025-11-23 08:08:12 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 08:08:13 | INFO     | rna_generator | [eval] iter=5 NEW BEST val=0.9648
+2025-11-23 08:08:14 | INFO     | rna_generator | [eval] iter=11 NEW BEST val=0.9653
+2025-11-23 08:08:14 | INFO     | rna_generator | [eval] iter=14 NEW BEST val=0.9665
+2025-11-23 08:08:52 | INFO     | rna_generator | [eval] iter=261 NEW BEST val=0.9676
+2025-11-23 08:08:53 | INFO     | rna_generator | [eval] iter=266 NEW BEST val=0.9687
+2025-11-23 08:08:58 | INFO     | rna_generator | [eval] iter=317 NEW BEST val=0.9691
+2025-11-23 08:09:22 | INFO     | rna_generator | [eval] iter=518 NEW BEST val=0.9691
+2025-11-23 08:10:01 | INFO     | rna_generator | [eval] iter=834 NEW BEST val=0.9699
+2025-11-23 08:10:01 | INFO     | rna_generator | [eval] iter=840 NEW BEST val=0.9715
+2025-11-23 08:12:14 | INFO     | rna_generator | [eval] iter=1920 NEW BEST val=0.9715
+2025-11-23 08:12:17 | INFO     | rna_generator | [eval] iter=1950 NEW BEST val=0.9722
+2025-11-23 08:12:19 | INFO     | rna_generator | [eval] iter=1968 NEW BEST val=0.9737
+2025-11-23 08:13:29 | INFO     | rna_generator | [eval] iter=2615 NEW BEST val=0.9746
+2025-11-23 08:18:39 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 08:18:39 | INFO     | rna_generator | Best RNA: RNA:CCUCCGCCCUGCGCUUUUAGGCAUCGGGGCUGUUCGUUCCAUUGGAUGGC
+2025-11-23 08:18:39 | INFO     | rna_generator | Best val: 0.9746
+2025-11-23 08:18:39 | INFO     | rna_generator | Tree sims: 5000 in 627.10s
+2025-11-23 08:18:39 | INFO     | rna_generator | Suggested first edit at root -> pos=40, base=A
+2025-11-23 08:18:39 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 08:18:39 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 08:18:39 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 08:18:40 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 08:18:42 | INFO     | rna_generator | Seed RNA: RNA:CGACGUCGCCGGGAAGGAGUGGGUCCAUGGGCUCUGUGCUACACUGUAGA  | score=0.0000
+2025-11-23 08:37:29 | INFO     | rna_generator | Mask ratio: 0.06020839928363192, Rounds: 2521, Best score: 0.9604745507240295, Best RNA: RNA:ACUGGAGGGCGUAGAGCCGGUUCAGGCACGGGGCGAUCCUUGCACAGGAA, high confidence: True
+2025-11-23 08:37:29 | INFO     | rna_generator | -------------------------------------
+2025-11-23 08:37:29 | INFO     | rna_generator | Iterative Genreation completed: score=0.9605, rna sequence=RNA:ACUGGAGGGCGUAGAGCCGGUUCAGGCACGGGGCGAUCCUUGCACAGGAA
+2025-11-23 08:37:29 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 08:37:33 | INFO     | rna_generator | [eval] iter=23 NEW BEST val=0.9636
+2025-11-23 08:37:35 | INFO     | rna_generator | [eval] iter=41 NEW BEST val=0.9734
+2025-11-23 08:43:33 | INFO     | rna_generator | [eval] iter=2778 NEW BEST val=0.9735
+2025-11-23 08:48:23 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 08:48:23 | INFO     | rna_generator | Best RNA: RNA:UCUGGAGGGCGUAGAGCCGGUUCAGGCUCGGGGCGAUCCUUGCACAGGAA
+2025-11-23 08:48:23 | INFO     | rna_generator | Best val: 0.9735
+2025-11-23 08:48:23 | INFO     | rna_generator | Tree sims: 5000 in 652.88s
+2025-11-23 08:48:23 | INFO     | rna_generator | Suggested first edit at root -> pos=28, base=A
+2025-11-23 08:48:23 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 08:48:23 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 08:48:23 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 08:48:24 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 08:48:26 | INFO     | rna_generator | Seed RNA: RNA:CACAUCGCUAGCGGGCGCCCGGAGAAUGAAGGGAGGCCUUAACGUGGUAG  | score=0.0108
+2025-11-23 09:07:00 | INFO     | rna_generator | Mask ratio: 0.061671620990665726, Rounds: 2497, Best score: 0.9695754051208496, Best RNA: RNA:GGUGCUCGGCUGCAGAGCGUGGCCGGAGGUUCACCACUUCCCUUGCAUCU, high confidence: True
+2025-11-23 09:07:00 | INFO     | rna_generator | -------------------------------------
+2025-11-23 09:07:00 | INFO     | rna_generator | Iterative Genreation completed: score=0.9696, rna sequence=RNA:GGUGCUCGGCUGCAGAGCGUGGCCGGAGGUUCACCACUUCCCUUGCAUCU
+2025-11-23 09:07:00 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 09:07:04 | INFO     | rna_generator | [eval] iter=29 NEW BEST val=0.9707
+2025-11-23 09:07:06 | INFO     | rna_generator | [eval] iter=41 NEW BEST val=0.9715
+2025-11-23 09:07:08 | INFO     | rna_generator | [eval] iter=64 NEW BEST val=0.9718
+2025-11-23 09:08:19 | INFO     | rna_generator | [eval] iter=556 NEW BEST val=0.9731
+2025-11-23 09:08:27 | INFO     | rna_generator | [eval] iter=612 NEW BEST val=0.9754
+2025-11-23 09:18:41 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 09:18:41 | INFO     | rna_generator | Best RNA: RNA:GGGGCUCGGCUGCAGAGCGUGGCCGGAGGUUUACCACUUCCCUUGCAUCU
+2025-11-23 09:18:41 | INFO     | rna_generator | Best val: 0.9754
+2025-11-23 09:18:41 | INFO     | rna_generator | Tree sims: 5000 in 701.46s
+2025-11-23 09:18:41 | INFO     | rna_generator | Suggested first edit at root -> pos=6, base=U
+2025-11-23 09:18:41 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 09:18:41 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 09:18:42 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 09:18:42 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 09:18:44 | INFO     | rna_generator | Seed RNA: RNA:CUCCCGGUUCCACUGGGUAAGACCGGUCCUGCGGGACCGCCACACCUCGA  | score=0.0365
+2025-11-23 09:21:50 | INFO     | rna_generator | Mask ratio: 0.5934518776605485, Rounds: 234, Best score: 0.9769101142883301, Best RNA: RNA:CCAGCACUUGGGCCGGAGUUCCUCUACGCAGAAUCAAGUGGAUGAGGGCG, high confidence: True
+2025-11-23 09:21:50 | INFO     | rna_generator | -------------------------------------
+2025-11-23 09:21:50 | INFO     | rna_generator | Iterative Genreation completed: score=0.9769, rna sequence=RNA:CCAGCACUUGGGCCGGAGUUCCUCUACGCAGAAUCAAGUGGAUGAGGGCG
+2025-11-23 09:21:50 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 09:21:52 | INFO     | rna_generator | [eval] iter=13 NEW BEST val=0.9781
+2025-11-23 09:21:58 | INFO     | rna_generator | [eval] iter=59 NEW BEST val=0.9787
+2025-11-23 09:24:43 | INFO     | rna_generator | [eval] iter=1293 NEW BEST val=0.9799
+2025-11-23 09:32:36 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 09:32:36 | INFO     | rna_generator | Best RNA: RNA:CCAGCACUUGGGCCGGUGUUCCUCUACGCAGAAUCAAGCGGAUGAGGGCG
+2025-11-23 09:32:36 | INFO     | rna_generator | Best val: 0.9799
+2025-11-23 09:32:36 | INFO     | rna_generator | Tree sims: 5000 in 645.92s
+2025-11-23 09:32:36 | INFO     | rna_generator | Suggested first edit at root -> pos=41, base=U
+2025-11-23 09:32:36 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 09:32:36 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 09:32:36 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 09:32:37 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 09:32:39 | INFO     | rna_generator | Seed RNA: RNA:GUAACACAUCCUCCGCGGGGCACCCGGCACAUCUUGCGAGAUGACCACAG  | score=0.3243
+2025-11-23 09:42:18 | INFO     | rna_generator | Mask ratio: 0.30662512440638057, Rounds: 894, Best score: 0.959749162197113, Best RNA: RNA:UUGCAUCGGUGCGCCUGGCAGCCGCUCACCUUGCAGGUAGCGCUCUCUUG, high confidence: True
+2025-11-23 09:42:18 | INFO     | rna_generator | -------------------------------------
+2025-11-23 09:42:18 | INFO     | rna_generator | Iterative Genreation completed: score=0.9597, rna sequence=RNA:UUGCAUCGGUGCGCCUGGCAGCCGCUCACCUUGCAGGUAGCGCUCUCUUG
+2025-11-23 09:42:18 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 09:42:21 | INFO     | rna_generator | [eval] iter=17 NEW BEST val=0.9633
+2025-11-23 09:43:02 | INFO     | rna_generator | [eval] iter=263 NEW BEST val=0.9649
+2025-11-23 09:43:10 | INFO     | rna_generator | [eval] iter=330 NEW BEST val=0.9660
+2025-11-23 09:43:19 | INFO     | rna_generator | [eval] iter=405 NEW BEST val=0.9688
+2025-11-23 09:52:27 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 09:52:27 | INFO     | rna_generator | Best RNA: RNA:UUGCAUCGGUGCGCCUGGCUGCCGCUCACCUUGCAGGUAGAGCUCUCUUG
+2025-11-23 09:52:27 | INFO     | rna_generator | Best val: 0.9688
+2025-11-23 09:52:27 | INFO     | rna_generator | Tree sims: 5000 in 608.93s
+2025-11-23 09:52:27 | INFO     | rna_generator | Suggested first edit at root -> pos=6, base=U
+2025-11-23 09:52:27 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 09:52:27 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 09:52:27 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 09:52:28 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 09:52:30 | INFO     | rna_generator | Seed RNA: RNA:GACACGCAGCACAGCCGACGUCUUAUCAAAUAGAUGACACUCGUAGGAAC  | score=0.0000
+2025-11-23 10:10:40 | INFO     | rna_generator | Mask ratio: 0.06788885655755436, Rounds: 2401, Best score: 0.9631359577178955, Best RNA: RNA:AGGGGCUCUGCGCUGCUUCGGUUUCCGCGUGGUUCCUUGCGAUCUAGCCC, high confidence: True
+2025-11-23 10:10:40 | INFO     | rna_generator | -------------------------------------
+2025-11-23 10:10:40 | INFO     | rna_generator | Iterative Genreation completed: score=0.9631, rna sequence=RNA:AGGGGCUCUGCGCUGCUUCGGUUUCCGCGUGGUUCCUUGCGAUCUAGCCC
+2025-11-23 10:10:40 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 10:10:41 | INFO     | rna_generator | [eval] iter=2 NEW BEST val=0.9672
+2025-11-23 10:10:42 | INFO     | rna_generator | [eval] iter=14 NEW BEST val=0.9694
+2025-11-23 10:10:45 | INFO     | rna_generator | [eval] iter=32 NEW BEST val=0.9718
+2025-11-23 10:11:22 | INFO     | rna_generator | [eval] iter=267 NEW BEST val=0.9719
+2025-11-23 10:11:23 | INFO     | rna_generator | [eval] iter=275 NEW BEST val=0.9724
+2025-11-23 10:11:32 | INFO     | rna_generator | [eval] iter=353 NEW BEST val=0.9727
+2025-11-23 10:11:38 | INFO     | rna_generator | [eval] iter=399 NEW BEST val=0.9744
+2025-11-23 10:12:10 | INFO     | rna_generator | [eval] iter=690 NEW BEST val=0.9745
+2025-11-23 10:12:20 | INFO     | rna_generator | [eval] iter=778 NEW BEST val=0.9748
+2025-11-23 10:12:21 | INFO     | rna_generator | [eval] iter=781 NEW BEST val=0.9750
+2025-11-23 10:15:52 | INFO     | rna_generator | [eval] iter=2320 NEW BEST val=0.9758
+2025-11-23 10:21:48 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 10:21:48 | INFO     | rna_generator | Best RNA: RNA:AGGGGCUCAGCGCUGCAUCGGUUUCCGCGUGGUUCCUUGCGAUCUAGCCC
+2025-11-23 10:21:48 | INFO     | rna_generator | Best val: 0.9758
+2025-11-23 10:21:48 | INFO     | rna_generator | Tree sims: 5000 in 667.76s
+2025-11-23 10:21:48 | INFO     | rna_generator | Suggested first edit at root -> pos=45, base=U
+2025-11-23 10:21:48 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 10:21:48 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 10:21:48 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 10:21:49 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 10:21:51 | INFO     | rna_generator | Seed RNA: RNA:AGAGAAUUGAGGCUUCAGAUAAGAGGUCGAACCUAUUAAUAGAAUGCAGA  | score=0.0000
+2025-11-23 10:31:12 | INFO     | rna_generator | Mask ratio: 0.31439130887520667, Rounds: 869, Best score: 0.9567551612854004, Best RNA: RNA:UUGUUUGGGGGCGUUCUUGCGGACCUUCCCCUCGGCCUCCUGUGCCUCUU, high confidence: True
+2025-11-23 10:31:12 | INFO     | rna_generator | -------------------------------------
+2025-11-23 10:31:12 | INFO     | rna_generator | Iterative Genreation completed: score=0.9568, rna sequence=RNA:UUGUUUGGGGGCGUUCUUGCGGACCUUCCCCUCGGCCUCCUGUGCCUCUU
+2025-11-23 10:31:12 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 10:31:13 | INFO     | rna_generator | [eval] iter=3 NEW BEST val=0.9588
+2025-11-23 10:31:14 | INFO     | rna_generator | [eval] iter=11 NEW BEST val=0.9602
+2025-11-23 10:31:15 | INFO     | rna_generator | [eval] iter=20 NEW BEST val=0.9611
+2025-11-23 10:31:16 | INFO     | rna_generator | [eval] iter=31 NEW BEST val=0.9614
+2025-11-23 10:31:16 | INFO     | rna_generator | [eval] iter=32 NEW BEST val=0.9614
+2025-11-23 10:31:23 | INFO     | rna_generator | [eval] iter=80 NEW BEST val=0.9629
+2025-11-23 10:32:12 | INFO     | rna_generator | [eval] iter=401 NEW BEST val=0.9638
+2025-11-23 10:33:13 | INFO     | rna_generator | [eval] iter=825 NEW BEST val=0.9641
+2025-11-23 10:33:42 | INFO     | rna_generator | [eval] iter=1023 NEW BEST val=0.9656
+2025-11-23 10:33:48 | INFO     | rna_generator | [eval] iter=1076 NEW BEST val=0.9661
+2025-11-23 10:39:29 | INFO     | rna_generator | [eval] iter=3760 NEW BEST val=0.9676
+2025-11-23 10:42:24 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 10:42:24 | INFO     | rna_generator | Best RNA: RNA:UUAUUUGGGGGCGUUCUUGCGGACCUUCCCCUCGGCCUCCUGUGCCACUU
+2025-11-23 10:42:24 | INFO     | rna_generator | Best val: 0.9676
+2025-11-23 10:42:24 | INFO     | rna_generator | Tree sims: 5000 in 671.69s
+2025-11-23 10:42:24 | INFO     | rna_generator | Suggested first edit at root -> pos=21, base=A
+2025-11-23 10:42:24 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 10:42:24 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 10:42:24 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 10:42:25 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 10:42:27 | INFO     | rna_generator | Seed RNA: RNA:GAUACGCGAAUGUGGUGACUCCCCCUCGGAGCUGGUAAGAGGAUGGUCCA  | score=0.0000
+2025-11-23 10:47:54 | INFO     | rna_generator | Mask ratio: 0.10008962504312165, Rounds: 2013, Best score: 0.9649084806442261, Best RNA: RNA:CUGCCUCCUGCGGGUUUCUUUCGGUUGCCCGUUGCGCCUAGCGUGGAGCU, high confidence: True
+2025-11-23 10:47:54 | INFO     | rna_generator | -------------------------------------
+2025-11-23 10:47:54 | INFO     | rna_generator | Iterative Genreation completed: score=0.9649, rna sequence=RNA:CUGCCUCCUGCGGGUUUCUUUCGGUUGCCCGUUGCGCCUAGCGUGGAGCU
+2025-11-23 10:47:54 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 10:47:54 | INFO     | rna_generator | [eval] iter=8 NEW BEST val=0.9660
+2025-11-23 10:47:54 | INFO     | rna_generator | [eval] iter=11 NEW BEST val=0.9687
+2025-11-23 10:47:55 | INFO     | rna_generator | [eval] iter=62 NEW BEST val=0.9706
+2025-11-23 10:47:59 | INFO     | rna_generator | [eval] iter=322 NEW BEST val=0.9707
+2025-11-23 10:47:59 | INFO     | rna_generator | [eval] iter=391 NEW BEST val=0.9708
+2025-11-23 10:48:00 | INFO     | rna_generator | [eval] iter=449 NEW BEST val=0.9715
+2025-11-23 10:48:07 | INFO     | rna_generator | [eval] iter=1006 NEW BEST val=0.9744
+2025-11-23 10:48:15 | INFO     | rna_generator | [eval] iter=1588 NEW BEST val=0.9744
+2025-11-23 10:48:17 | INFO     | rna_generator | [eval] iter=1739 NEW BEST val=0.9745
+2025-11-23 10:48:53 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 10:48:53 | INFO     | rna_generator | Best RNA: RNA:CUGCCUCCUGCGGGUUUCUUUCGGUUGCCCAUUACGCCUAGCGUGGAGCU
+2025-11-23 10:48:53 | INFO     | rna_generator | Best val: 0.9745
+2025-11-23 10:48:53 | INFO     | rna_generator | Tree sims: 5000 in 58.82s
+2025-11-23 10:48:53 | INFO     | rna_generator | Suggested first edit at root -> pos=26, base=U
+2025-11-23 10:48:53 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 10:48:53 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 10:48:53 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 10:48:54 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 10:48:54 | INFO     | rna_generator | Seed RNA: RNA:UUGUGAGCGCAUUGUUUUUCACGCGGGCGGGCCGUUGCGAAGAUUAAUAG  | score=0.0000
+2025-11-23 10:49:16 | INFO     | rna_generator | Mask ratio: 0.6257698465015105, Rounds: 181, Best score: 0.9660857915878296, Best RNA: RNA:UUGGGCGAGACUGCUGCGCCUCUCGGGGGCUAAGACGUGUUGCAUGAUUC, high confidence: True
+2025-11-23 10:49:16 | INFO     | rna_generator | -------------------------------------
+2025-11-23 10:49:16 | INFO     | rna_generator | Iterative Genreation completed: score=0.9661, rna sequence=RNA:UUGGGCGAGACUGCUGCGCCUCUCGGGGGCUAAGACGUGUUGCAUGAUUC
+2025-11-23 10:49:16 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 10:49:16 | INFO     | rna_generator | [eval] iter=0 NEW BEST val=0.9672
+2025-11-23 10:49:16 | INFO     | rna_generator | [eval] iter=40 NEW BEST val=0.9672
+2025-11-23 10:49:16 | INFO     | rna_generator | [eval] iter=49 NEW BEST val=0.9688
+2025-11-23 10:49:16 | INFO     | rna_generator | [eval] iter=50 NEW BEST val=0.9700
+2025-11-23 10:49:17 | INFO     | rna_generator | [eval] iter=113 NEW BEST val=0.9700
+2025-11-23 10:49:18 | INFO     | rna_generator | [eval] iter=150 NEW BEST val=0.9711
+2025-11-23 10:49:47 | INFO     | rna_generator | [eval] iter=2770 NEW BEST val=0.9711
+2025-11-23 10:50:12 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 10:50:12 | INFO     | rna_generator | Best RNA: RNA:UUGGGCGAGACUGCAGCGCCUCCCGGGGGCUAAGACGUGUUGCAUGAUUC
+2025-11-23 10:50:12 | INFO     | rna_generator | Best val: 0.9711
+2025-11-23 10:50:12 | INFO     | rna_generator | Tree sims: 5000 in 56.42s
+2025-11-23 10:50:12 | INFO     | rna_generator | Suggested first edit at root -> pos=49, base=G
+2025-11-23 10:50:12 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 10:50:12 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 10:50:12 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 10:50:12 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 10:50:13 | INFO     | rna_generator | Seed RNA: RNA:GAUGCUAACUUCAUAGAAGCUCGCAUAGGGAUCGCCGGCCUAGGCAAUGA  | score=0.0000
+2025-11-23 10:52:07 | INFO     | rna_generator | Mask ratio: 0.17474796237774187, Rounds: 1456, Best score: 0.9508472084999084, Best RNA: RNA:CUCUGGUGGGGUAGUGCUGCCUCGCCUCUGCGCUCCUCUUUUGUUGUGCC, high confidence: True
+2025-11-23 10:52:07 | INFO     | rna_generator | -------------------------------------
+2025-11-23 10:52:07 | INFO     | rna_generator | Iterative Genreation completed: score=0.9508, rna sequence=RNA:CUCUGGUGGGGUAGUGCUGCCUCGCCUCUGCGCUCCUCUUUUGUUGUGCC
+2025-11-23 10:52:07 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 10:52:07 | INFO     | rna_generator | [eval] iter=8 NEW BEST val=0.9531
+2025-11-23 10:52:07 | INFO     | rna_generator | [eval] iter=24 NEW BEST val=0.9547
+2025-11-23 10:52:07 | INFO     | rna_generator | [eval] iter=26 NEW BEST val=0.9578
+2025-11-23 10:52:15 | INFO     | rna_generator | [eval] iter=702 NEW BEST val=0.9587
+2025-11-23 10:52:19 | INFO     | rna_generator | [eval] iter=1026 NEW BEST val=0.9588
+2025-11-23 10:52:20 | INFO     | rna_generator | [eval] iter=1126 NEW BEST val=0.9592
+2025-11-23 10:52:21 | INFO     | rna_generator | [eval] iter=1216 NEW BEST val=0.9596
+2025-11-23 10:52:21 | INFO     | rna_generator | [eval] iter=1217 NEW BEST val=0.9598
+2025-11-23 10:52:21 | INFO     | rna_generator | [eval] iter=1220 NEW BEST val=0.9602
+2025-11-23 10:52:21 | INFO     | rna_generator | [eval] iter=1222 NEW BEST val=0.9618
+2025-11-23 10:52:58 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 10:52:58 | INFO     | rna_generator | Best RNA: RNA:CUCUGGUGGGGUAGAGCUGCCUCGCCUCUGCGCUCCACUUUUGUUGUGCC
+2025-11-23 10:52:58 | INFO     | rna_generator | Best val: 0.9618
+2025-11-23 10:52:58 | INFO     | rna_generator | Tree sims: 5000 in 51.95s
+2025-11-23 10:52:58 | INFO     | rna_generator | Suggested first edit at root -> pos=23, base=A
+2025-11-23 10:52:58 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 10:52:58 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 10:52:59 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 10:52:59 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 10:52:59 | INFO     | rna_generator | Seed RNA: RNA:UUAUGGCGCCCCCUCACCUUCAACUCUUUCACUCUGUUCGUAAGUACUGG  | score=0.4488
+2025-11-23 10:53:05 | INFO     | rna_generator | Mask ratio: 0.7155487213813018, Rounds: 47, Best score: 0.952657163143158, Best RNA: RNA:GUAGCCGGAGCCUUUGCACAAGGGCGACAACGUUCUUCCCCCGGAGCAGU, high confidence: True
+2025-11-23 10:53:05 | INFO     | rna_generator | -------------------------------------
+2025-11-23 10:53:05 | INFO     | rna_generator | Iterative Genreation completed: score=0.9527, rna sequence=RNA:GUAGCCGGAGCCUUUGCACAAGGGCGACAACGUUCUUCCCCCGGAGCAGU
+2025-11-23 10:53:05 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 10:53:05 | INFO     | rna_generator | [eval] iter=1 NEW BEST val=0.9554
+2025-11-23 10:53:05 | INFO     | rna_generator | [eval] iter=2 NEW BEST val=0.9628
+2025-11-23 10:53:05 | INFO     | rna_generator | [eval] iter=17 NEW BEST val=0.9642
+2025-11-23 10:53:07 | INFO     | rna_generator | [eval] iter=127 NEW BEST val=0.9644
+2025-11-23 10:53:08 | INFO     | rna_generator | [eval] iter=165 NEW BEST val=0.9668
+2025-11-23 10:53:12 | INFO     | rna_generator | [eval] iter=492 NEW BEST val=0.9675
+2025-11-23 10:53:13 | INFO     | rna_generator | [eval] iter=575 NEW BEST val=0.9677
+2025-11-23 10:53:30 | INFO     | rna_generator | [eval] iter=2104 NEW BEST val=0.9679
+2025-11-23 10:53:34 | INFO     | rna_generator | [eval] iter=2480 NEW BEST val=0.9679
+2025-11-23 10:53:55 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 10:53:55 | INFO     | rna_generator | Best RNA: RNA:GUAGCAGGAGCCUUUGCUCAAGGGCGACAUCGUUCUUCCCCCGGAGCAGU
+2025-11-23 10:53:55 | INFO     | rna_generator | Best val: 0.9679
+2025-11-23 10:53:55 | INFO     | rna_generator | Tree sims: 5000 in 49.54s
+2025-11-23 10:53:55 | INFO     | rna_generator | Suggested first edit at root -> pos=5, base=A
+2025-11-23 10:53:55 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 10:53:55 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 10:53:55 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 10:53:55 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 10:53:56 | INFO     | rna_generator | Seed RNA: RNA:GCCGCCGAUCUCUUGGUUCACGUUGCCUCGAUAAAUGCGAGACUUCAGUC  | score=0.0000
+2025-11-23 10:56:10 | INFO     | rna_generator | Mask ratio: 0.1066014971340361, Rounds: 1950, Best score: 0.9524819254875183, Best RNA: RNA:UCUUCUAGUGGCCCCCUCGCUCGCCGGCGCUUCUGGUGGGUUUUUGGCUG, high confidence: True
+2025-11-23 10:56:10 | INFO     | rna_generator | -------------------------------------
+2025-11-23 10:56:10 | INFO     | rna_generator | Iterative Genreation completed: score=0.9525, rna sequence=RNA:UCUUCUAGUGGCCCCCUCGCUCGCCGGCGCUUCUGGUGGGUUUUUGGCUG
+2025-11-23 10:56:10 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 10:56:10 | INFO     | rna_generator | [eval] iter=5 NEW BEST val=0.9552
+2025-11-23 10:56:11 | INFO     | rna_generator | [eval] iter=32 NEW BEST val=0.9565
+2025-11-23 10:56:11 | INFO     | rna_generator | [eval] iter=41 NEW BEST val=0.9584
+2025-11-23 10:56:14 | INFO     | rna_generator | [eval] iter=281 NEW BEST val=0.9590
+2025-11-23 10:56:14 | INFO     | rna_generator | [eval] iter=301 NEW BEST val=0.9599
+2025-11-23 10:56:14 | INFO     | rna_generator | [eval] iter=306 NEW BEST val=0.9620
+2025-11-23 10:56:16 | INFO     | rna_generator | [eval] iter=453 NEW BEST val=0.9637
+2025-11-23 10:56:33 | INFO     | rna_generator | [eval] iter=2093 NEW BEST val=0.9659
+2025-11-23 10:56:40 | INFO     | rna_generator | [eval] iter=2733 NEW BEST val=0.9678
+2025-11-23 10:57:03 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 10:57:03 | INFO     | rna_generator | Best RNA: RNA:UCUUCUAGUGGCCCCCUCGCACUCCGGCGCUUCAGGUGGGUUUUUGGCUG
+2025-11-23 10:57:03 | INFO     | rna_generator | Best val: 0.9678
+2025-11-23 10:57:03 | INFO     | rna_generator | Tree sims: 5000 in 52.78s
+2025-11-23 10:57:03 | INFO     | rna_generator | Suggested first edit at root -> pos=22, base=U
+2025-11-23 10:57:03 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 10:57:03 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 10:57:03 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 10:57:04 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 10:57:04 | INFO     | rna_generator | Seed RNA: RNA:AGGAGUGAGUCCACCAGCAGCCACACGAAAACAAGGAUCAUCGUAAUGAG  | score=0.0001
+2025-11-23 10:59:14 | INFO     | rna_generator | Mask ratio: 0.12349134900589386, Rounds: 1803, Best score: 0.9637966752052307, Best RNA: RNA:AAUGCCGCCGGAAGCUUCGGGAGCUCCGCAGGGAUCCUUGGCCAUUCUGG, high confidence: True
+2025-11-23 10:59:14 | INFO     | rna_generator | -------------------------------------
+2025-11-23 10:59:14 | INFO     | rna_generator | Iterative Genreation completed: score=0.9638, rna sequence=RNA:AAUGCCGCCGGAAGCUUCGGGAGCUCCGCAGGGAUCCUUGGCCAUUCUGG
+2025-11-23 10:59:14 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 10:59:14 | INFO     | rna_generator | [eval] iter=8 NEW BEST val=0.9642
+2025-11-23 10:59:14 | INFO     | rna_generator | [eval] iter=20 NEW BEST val=0.9666
+2025-11-23 10:59:14 | INFO     | rna_generator | [eval] iter=55 NEW BEST val=0.9673
+2025-11-23 10:59:14 | INFO     | rna_generator | [eval] iter=58 NEW BEST val=0.9695
+2025-11-23 10:59:17 | INFO     | rna_generator | [eval] iter=245 NEW BEST val=0.9703
+2025-11-23 10:59:20 | INFO     | rna_generator | [eval] iter=458 NEW BEST val=0.9709
+2025-11-23 10:59:22 | INFO     | rna_generator | [eval] iter=622 NEW BEST val=0.9717
+2025-11-23 10:59:24 | INFO     | rna_generator | [eval] iter=743 NEW BEST val=0.9720
+2025-11-23 10:59:45 | INFO     | rna_generator | [eval] iter=2535 NEW BEST val=0.9721
+2025-11-23 11:00:02 | INFO     | rna_generator | [eval] iter=4126 NEW BEST val=0.9724
+2025-11-23 11:00:04 | INFO     | rna_generator | [eval] iter=4278 NEW BEST val=0.9727
+2025-11-23 11:00:12 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 11:00:12 | INFO     | rna_generator | Best RNA: RNA:AAUGCCGCUGGAAGUUUCGGGAGCUCAGCAGGGAUCCUUGGCCAUUCUGG
+2025-11-23 11:00:12 | INFO     | rna_generator | Best val: 0.9727
+2025-11-23 11:00:12 | INFO     | rna_generator | Tree sims: 5000 in 58.45s
+2025-11-23 11:00:12 | INFO     | rna_generator | Suggested first edit at root -> pos=8, base=A
+2025-11-23 11:00:12 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 11:00:12 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 11:00:12 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 11:00:13 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 11:00:13 | INFO     | rna_generator | Seed RNA: RNA:UGAACGCCUGCGUAUGUCAAUCUGUGCUUCAUGAGUUGAGUUAUUCAUGA  | score=0.0001
+2025-11-23 11:01:52 | INFO     | rna_generator | Mask ratio: 0.3197843691711683, Rounds: 852, Best score: 0.9573213458061218, Best RNA: RNA:CUAUUCCUGCCCGGUUUGGGCUUUGGGACGCUUGGAUGGAAUACUGGUGC, high confidence: True
+2025-11-23 11:01:52 | INFO     | rna_generator | -------------------------------------
+2025-11-23 11:01:52 | INFO     | rna_generator | Iterative Genreation completed: score=0.9573, rna sequence=RNA:CUAUUCCUGCCCGGUUUGGGCUUUGGGACGCUUGGAUGGAAUACUGGUGC
+2025-11-23 11:01:52 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 11:01:52 | INFO     | rna_generator | [eval] iter=0 NEW BEST val=0.9597
+2025-11-23 11:01:52 | INFO     | rna_generator | [eval] iter=1 NEW BEST val=0.9626
+2025-11-23 11:01:52 | INFO     | rna_generator | [eval] iter=21 NEW BEST val=0.9632
+2025-11-23 11:01:52 | INFO     | rna_generator | [eval] iter=22 NEW BEST val=0.9649
+2025-11-23 11:01:54 | INFO     | rna_generator | [eval] iter=157 NEW BEST val=0.9653
+2025-11-23 11:01:55 | INFO     | rna_generator | [eval] iter=211 NEW BEST val=0.9658
+2025-11-23 11:02:02 | INFO     | rna_generator | [eval] iter=900 NEW BEST val=0.9665
+2025-11-23 11:02:06 | INFO     | rna_generator | [eval] iter=1204 NEW BEST val=0.9668
+2025-11-23 11:02:09 | INFO     | rna_generator | [eval] iter=1512 NEW BEST val=0.9674
+2025-11-23 11:02:09 | INFO     | rna_generator | [eval] iter=1554 NEW BEST val=0.9676
+2025-11-23 11:02:09 | INFO     | rna_generator | [eval] iter=1560 NEW BEST val=0.9681
+2025-11-23 11:02:10 | INFO     | rna_generator | [eval] iter=1613 NEW BEST val=0.9686
+2025-11-23 11:02:11 | INFO     | rna_generator | [eval] iter=1764 NEW BEST val=0.9690
+2025-11-23 11:02:11 | INFO     | rna_generator | [eval] iter=1767 NEW BEST val=0.9690
+2025-11-23 11:02:11 | INFO     | rna_generator | [eval] iter=1768 NEW BEST val=0.9701
+2025-11-23 11:02:14 | INFO     | rna_generator | [eval] iter=1947 NEW BEST val=0.9701
+2025-11-23 11:02:19 | INFO     | rna_generator | [eval] iter=2359 NEW BEST val=0.9712
+2025-11-23 11:02:35 | INFO     | rna_generator | [eval] iter=3744 NEW BEST val=0.9712
+2025-11-23 11:02:35 | INFO     | rna_generator | [eval] iter=3750 NEW BEST val=0.9712
+2025-11-23 11:02:49 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 11:02:49 | INFO     | rna_generator | Best RNA: RNA:CCAUUCCUGCCCGGUUAGGGCUUUGGGACGCUUGGAUGGAAUACUGGUGC
+2025-11-23 11:02:49 | INFO     | rna_generator | Best val: 0.9712
+2025-11-23 11:02:49 | INFO     | rna_generator | Tree sims: 5000 in 57.72s
+2025-11-23 11:02:49 | INFO     | rna_generator | Suggested first edit at root -> pos=4, base=G
+2025-11-23 11:02:49 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 11:02:49 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 11:02:49 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 11:02:50 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 11:02:50 | INFO     | rna_generator | Seed RNA: RNA:CCUGUCAUGUCAGAACAGCAAUCAUCAGGUUCCUGAGAAUACCGACCCCU  | score=0.0000
+2025-11-23 11:05:32 | INFO     | rna_generator | Mask ratio: 0.05889763035753504, Rounds: 2543, Best score: 0.9629250168800354, Best RNA: RNA:GGGUUCUGGCUAACUGGAGCGGUGUUGGGGCUUCGGCUCCGCAGACAUCC, high confidence: True
+2025-11-23 11:05:32 | INFO     | rna_generator | -------------------------------------
+2025-11-23 11:05:32 | INFO     | rna_generator | Iterative Genreation completed: score=0.9629, rna sequence=RNA:GGGUUCUGGCUAACUGGAGCGGUGUUGGGGCUUCGGCUCCGCAGACAUCC
+2025-11-23 11:05:32 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 11:05:33 | INFO     | rna_generator | [eval] iter=11 NEW BEST val=0.9636
+2025-11-23 11:05:33 | INFO     | rna_generator | [eval] iter=17 NEW BEST val=0.9645
+2025-11-23 11:05:33 | INFO     | rna_generator | [eval] iter=20 NEW BEST val=0.9662
+2025-11-23 11:05:33 | INFO     | rna_generator | [eval] iter=26 NEW BEST val=0.9682
+2025-11-23 11:05:33 | INFO     | rna_generator | [eval] iter=41 NEW BEST val=0.9687
+2025-11-23 11:05:37 | INFO     | rna_generator | [eval] iter=342 NEW BEST val=0.9688
+2025-11-23 11:05:37 | INFO     | rna_generator | [eval] iter=346 NEW BEST val=0.9690
+2025-11-23 11:05:37 | INFO     | rna_generator | [eval] iter=352 NEW BEST val=0.9698
+2025-11-23 11:05:52 | INFO     | rna_generator | [eval] iter=1472 NEW BEST val=0.9699
+2025-11-23 11:06:11 | INFO     | rna_generator | [eval] iter=2883 NEW BEST val=0.9703
+2025-11-23 11:06:12 | INFO     | rna_generator | [eval] iter=2959 NEW BEST val=0.9716
+2025-11-23 11:06:37 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 11:06:37 | INFO     | rna_generator | Best RNA: RNA:GGGAUCAGGCAAACUGGAGCGGUGUUGGGGCUUCGGCUCCGCAGACAUCC
+2025-11-23 11:06:37 | INFO     | rna_generator | Best val: 0.9716
+2025-11-23 11:06:37 | INFO     | rna_generator | Tree sims: 5000 in 64.56s
+2025-11-23 11:06:37 | INFO     | rna_generator | Suggested first edit at root -> pos=10, base=A
+2025-11-23 11:06:37 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 11:06:37 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 11:06:37 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 11:06:37 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 11:06:38 | INFO     | rna_generator | Seed RNA: RNA:GCUUCUCUGUUAGGCCUAGUCCUGCCAGUGUAACACCGUGGGGCGUCACC  | score=0.0000
+2025-11-23 11:07:59 | INFO     | rna_generator | Mask ratio: 0.30662512440638057, Rounds: 894, Best score: 0.9618860483169556, Best RNA: RNA:CUUGAGUUCUGCGGCAUGCCCUUGGGCCCGCUGGAGUGGUGCUCUACCUC, high confidence: True
+2025-11-23 11:07:59 | INFO     | rna_generator | -------------------------------------
+2025-11-23 11:07:59 | INFO     | rna_generator | Iterative Genreation completed: score=0.9619, rna sequence=RNA:CUUGAGUUCUGCGGCAUGCCCUUGGGCCCGCUGGAGUGGUGCUCUACCUC
+2025-11-23 11:07:59 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 11:07:59 | INFO     | rna_generator | [eval] iter=17 NEW BEST val=0.9669
+2025-11-23 11:08:04 | INFO     | rna_generator | [eval] iter=352 NEW BEST val=0.9680
+2025-11-23 11:08:06 | INFO     | rna_generator | [eval] iter=498 NEW BEST val=0.9691
+2025-11-23 11:08:15 | INFO     | rna_generator | [eval] iter=1253 NEW BEST val=0.9704
+2025-11-23 11:09:00 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 11:09:00 | INFO     | rna_generator | Best RNA: RNA:CUUGAAUUCAGCGGCAUGCCCUUGGGCCCGCUGGAGUGGUGCUCUACCUC
+2025-11-23 11:09:00 | INFO     | rna_generator | Best val: 0.9704
+2025-11-23 11:09:00 | INFO     | rna_generator | Tree sims: 5000 in 60.71s
+2025-11-23 11:09:00 | INFO     | rna_generator | Suggested first edit at root -> pos=30, base=A
+2025-11-23 11:09:00 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 11:09:00 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 11:09:00 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 11:09:00 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 11:09:01 | INFO     | rna_generator | Seed RNA: RNA:CGCUGAGAAUAUAACGCAACAUAGUCCUAUAGUGCAAGCCACAAGUCUGC  | score=0.0000
+2025-11-23 11:10:54 | INFO     | rna_generator | Mask ratio: 0.1714574643386517, Rounds: 1475, Best score: 0.9601233005523682, Best RNA: RNA:CCUCUUCGCCGUUUCUUGGGCGAGCUCGUGCUCUGGUGGCCUCUCCGGAA, high confidence: True
+2025-11-23 11:10:54 | INFO     | rna_generator | -------------------------------------
+2025-11-23 11:10:54 | INFO     | rna_generator | Iterative Genreation completed: score=0.9601, rna sequence=RNA:CCUCUUCGCCGUUUCUUGGGCGAGCUCGUGCUCUGGUGGCCUCUCCGGAA
+2025-11-23 11:10:54 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 11:10:55 | INFO     | rna_generator | [eval] iter=11 NEW BEST val=0.9613
+2025-11-23 11:10:55 | INFO     | rna_generator | [eval] iter=14 NEW BEST val=0.9635
+2025-11-23 11:10:55 | INFO     | rna_generator | [eval] iter=17 NEW BEST val=0.9644
+2025-11-23 11:10:55 | INFO     | rna_generator | [eval] iter=23 NEW BEST val=0.9650
+2025-11-23 11:10:55 | INFO     | rna_generator | [eval] iter=26 NEW BEST val=0.9652
+2025-11-23 11:11:01 | INFO     | rna_generator | [eval] iter=496 NEW BEST val=0.9668
+2025-11-23 11:11:06 | INFO     | rna_generator | [eval] iter=919 NEW BEST val=0.9669
+2025-11-23 11:11:08 | INFO     | rna_generator | [eval] iter=1036 NEW BEST val=0.9673
+2025-11-23 11:11:16 | INFO     | rna_generator | [eval] iter=1737 NEW BEST val=0.9681
+2025-11-23 11:11:28 | INFO     | rna_generator | [eval] iter=2923 NEW BEST val=0.9697
+2025-11-23 11:11:49 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 11:11:49 | INFO     | rna_generator | Best RNA: RNA:CCACUUCGCCGUUUCUUGGGCAAGCUCGUGCUCAGGUGGCCUCUCCGGAA
+2025-11-23 11:11:49 | INFO     | rna_generator | Best val: 0.9697
+2025-11-23 11:11:49 | INFO     | rna_generator | Tree sims: 5000 in 55.06s
+2025-11-23 11:11:49 | INFO     | rna_generator | Suggested first edit at root -> pos=21, base=A
+2025-11-23 11:11:49 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 11:11:49 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 11:11:50 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 11:11:50 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 11:11:50 | INFO     | rna_generator | Seed RNA: RNA:GCCGACUGUGCCCGGAAAGCUCCGGCGUUGGGCAGGUUUCAAAGUGGGCG  | score=0.0067
+2025-11-23 11:13:39 | INFO     | rna_generator | Mask ratio: 0.18780059684373068, Rounds: 1384, Best score: 0.9605411887168884, Best RNA: RNA:GGUUUGGGCGAGUUUUAGGGGACUGGUACGGGCCCUCACGGGAUUCGUGU, high confidence: True
+2025-11-23 11:13:39 | INFO     | rna_generator | -------------------------------------
+2025-11-23 11:13:39 | INFO     | rna_generator | Iterative Genreation completed: score=0.9605, rna sequence=RNA:GGUUUGGGCGAGUUUUAGGGGACUGGUACGGGCCCUCACGGGAUUCGUGU
+2025-11-23 11:13:39 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 11:13:39 | INFO     | rna_generator | [eval] iter=3 NEW BEST val=0.9616
+2025-11-23 11:13:39 | INFO     | rna_generator | [eval] iter=4 NEW BEST val=0.9619
+2025-11-23 11:13:39 | INFO     | rna_generator | [eval] iter=5 NEW BEST val=0.9668
+2025-11-23 11:13:39 | INFO     | rna_generator | [eval] iter=10 NEW BEST val=0.9669
+2025-11-23 11:13:39 | INFO     | rna_generator | [eval] iter=20 NEW BEST val=0.9679
+2025-11-23 11:13:39 | INFO     | rna_generator | [eval] iter=40 NEW BEST val=0.9706
+2025-11-23 11:13:46 | INFO     | rna_generator | [eval] iter=575 NEW BEST val=0.9706
+2025-11-23 11:13:46 | INFO     | rna_generator | [eval] iter=578 NEW BEST val=0.9707
+2025-11-23 11:13:48 | INFO     | rna_generator | [eval] iter=736 NEW BEST val=0.9707
+2025-11-23 11:13:49 | INFO     | rna_generator | [eval] iter=793 NEW BEST val=0.9711
+2025-11-23 11:13:59 | INFO     | rna_generator | [eval] iter=1660 NEW BEST val=0.9718
+2025-11-23 11:13:59 | INFO     | rna_generator | [eval] iter=1663 NEW BEST val=0.9718
+2025-11-23 11:14:00 | INFO     | rna_generator | [eval] iter=1761 NEW BEST val=0.9718
+2025-11-23 11:14:18 | INFO     | rna_generator | [eval] iter=3321 NEW BEST val=0.9721
+2025-11-23 11:14:37 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 11:14:37 | INFO     | rna_generator | Best RNA: RNA:GGAUUGGGCGAGUUUUAGGGGACUGGUAUGGGCCCUCACGGGCUUCGUGU
+2025-11-23 11:14:37 | INFO     | rna_generator | Best val: 0.9721
+2025-11-23 11:14:37 | INFO     | rna_generator | Tree sims: 5000 in 57.92s
+2025-11-23 11:14:37 | INFO     | rna_generator | Suggested first edit at root -> pos=42, base=C
+2025-11-23 11:14:37 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 11:14:37 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 11:14:37 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 11:14:37 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 11:14:38 | INFO     | rna_generator | Seed RNA: RNA:AGGAUUUGCACGGGGUAUGGGGCUUGCCAACGGAUUCCGGGCUACUGCCG  | score=0.0000
+2025-11-23 11:17:02 | INFO     | rna_generator | Mask ratio: 0.07601482927494353, Rounds: 2288, Best score: 0.9544740319252014, Best RNA: RNA:GCCCCAACAAAGCCUCGCAGGAACGCUAGCACAAACGAGGGAGUGGGACC, high confidence: True
+2025-11-23 11:17:02 | INFO     | rna_generator | -------------------------------------
+2025-11-23 11:17:02 | INFO     | rna_generator | Iterative Genreation completed: score=0.9545, rna sequence=RNA:GCCCCAACAAAGCCUCGCAGGAACGCUAGCACAAACGAGGGAGUGGGACC
+2025-11-23 11:17:02 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 11:17:02 | INFO     | rna_generator | [eval] iter=10 NEW BEST val=0.9546
+2025-11-23 11:17:02 | INFO     | rna_generator | [eval] iter=11 NEW BEST val=0.9555
+2025-11-23 11:17:02 | INFO     | rna_generator | [eval] iter=20 NEW BEST val=0.9558
+2025-11-23 11:17:02 | INFO     | rna_generator | [eval] iter=24 NEW BEST val=0.9561
+2025-11-23 11:17:02 | INFO     | rna_generator | [eval] iter=29 NEW BEST val=0.9580
+2025-11-23 11:17:02 | INFO     | rna_generator | [eval] iter=50 NEW BEST val=0.9633
+2025-11-23 11:17:07 | INFO     | rna_generator | [eval] iter=473 NEW BEST val=0.9633
+2025-11-23 11:17:09 | INFO     | rna_generator | [eval] iter=640 NEW BEST val=0.9653
+2025-11-23 11:17:11 | INFO     | rna_generator | [eval] iter=745 NEW BEST val=0.9692
+2025-11-23 11:17:11 | INFO     | rna_generator | [eval] iter=754 NEW BEST val=0.9702
+2025-11-23 11:17:11 | INFO     | rna_generator | [eval] iter=760 NEW BEST val=0.9715
+2025-11-23 11:17:35 | INFO     | rna_generator | [eval] iter=2949 NEW BEST val=0.9723
+2025-11-23 11:17:35 | INFO     | rna_generator | [eval] iter=2955 NEW BEST val=0.9741
+2025-11-23 11:17:35 | INFO     | rna_generator | [eval] iter=2966 NEW BEST val=0.9741
+2025-11-23 11:17:55 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 11:17:55 | INFO     | rna_generator | Best RNA: RNA:GCCCCAUCAAAGCCUCGCAGGUACGCUAGCACAUACGAGGGAGUGGGACC
+2025-11-23 11:17:55 | INFO     | rna_generator | Best val: 0.9741
+2025-11-23 11:17:55 | INFO     | rna_generator | Tree sims: 5000 in 53.34s
+2025-11-23 11:17:55 | INFO     | rna_generator | Suggested first edit at root -> pos=33, base=U
+2025-11-23 11:17:55 | INFO     | rna_generator | Using provided protein sequence directly.
+2025-11-23 11:17:55 | INFO     | rna_generator | Loading tokenizer and RT model from: ./weights/checkpoint
+2025-11-23 11:17:55 | INFO     | rna_generator | Loading fusion scoring model
+2025-11-23 11:17:55 | INFO     | rna_generator | Starting initial mask predict initialization
+2025-11-23 11:17:56 | INFO     | rna_generator | Seed RNA: RNA:UAACUAGCACUGAGCUCGAGGGACUGCACUGUUACUGGCGUAGGCUAGAC  | score=0.0042
+2025-11-23 11:20:19 | INFO     | rna_generator | Mask ratio: 0.07609092019513868, Rounds: 2287, Best score: 0.9611002206802368, Best RNA: RNA:GAGGGGCACACUCCCCAUCGGGUGCGGACCAAUCCAGGACAGGAUGGGAA, high confidence: True
+2025-11-23 11:20:19 | INFO     | rna_generator | -------------------------------------
+2025-11-23 11:20:19 | INFO     | rna_generator | Iterative Genreation completed: score=0.9611, rna sequence=RNA:GAGGGGCACACUCCCCAUCGGGUGCGGACCAAUCCAGGACAGGAUGGGAA
+2025-11-23 11:20:19 | INFO     | rna_generator | [tree] Expanding root
+2025-11-23 11:20:20 | INFO     | rna_generator | [eval] iter=17 NEW BEST val=0.9622
+2025-11-23 11:20:20 | INFO     | rna_generator | [eval] iter=29 NEW BEST val=0.9626
+2025-11-23 11:20:20 | INFO     | rna_generator | [eval] iter=38 NEW BEST val=0.9630
+2025-11-23 11:20:20 | INFO     | rna_generator | [eval] iter=67 NEW BEST val=0.9638
+2025-11-23 11:20:20 | INFO     | rna_generator | [eval] iter=68 NEW BEST val=0.9649
+2025-11-23 11:20:25 | INFO     | rna_generator | [eval] iter=444 NEW BEST val=0.9673
+2025-11-23 11:20:28 | INFO     | rna_generator | [eval] iter=716 NEW BEST val=0.9681
+2025-11-23 11:20:29 | INFO     | rna_generator | [eval] iter=809 NEW BEST val=0.9700
+2025-11-23 11:21:01 | INFO     | rna_generator | [eval] iter=3597 NEW BEST val=0.9705
+2025-11-23 11:21:16 | INFO     | rna_generator | 
+=== MCTS RESULT ===
+2025-11-23 11:21:16 | INFO     | rna_generator | Best RNA: RNA:GAGGGGCAUACUCCUCAUCGGGUGCGGACCAAUCUAGGACAGGAUGGGAA
+2025-11-23 11:21:16 | INFO     | rna_generator | Best val: 0.9705
+2025-11-23 11:21:16 | INFO     | rna_generator | Tree sims: 5000 in 56.97s
+2025-11-23 11:21:16 | INFO     | rna_generator | Suggested first edit at root -> pos=14, base=U

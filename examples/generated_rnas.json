@@ -1,0 +1,1089 @@
+{
+  "target_dir": "/data1/sobhan/RNA-X/examples",
+  "n_generated": 20,
+  "binding_lengths": 50,
+  "score_threshold": 0.6,
+  "attempts": 20,
+  "details": [
+    {
+      "index": 1,
+      "header": "RNA-X_1|len=50|score=0.9746",
+      "score": 0.9745566844940186,
+      "scores": {
+        "final": 0.9745566844940186,
+        "veto": false,
+        "p_bind": 0.9999990463256836,
+        "bind_conf": 0.999979555606842,
+        "BIND_star": 0.9999929070472717,
+        "engine": "vienna",
+        "mfe": -15.199999809265137,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.304
+        },
+        "db": ".....((((((.(((....)))..))))))...((((((....)))))).",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.62,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 4,
+          "P_LC": 0.01608945869198155,
+          "homo_run": 4,
+          "k3_entropy": 0.8927369420534563,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.009346938775510204,
+          "gu_density": 0.12244897959183673,
+          "u_run": 6,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.025436397467491753
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 2,
+      "header": "RNA-X_2|len=50|score=0.9735",
+      "score": 0.9735141396522522,
+      "scores": {
+        "final": 0.9735141396522522,
+        "veto": false,
+        "p_bind": 0.9999984502792358,
+        "bind_conf": 0.9999678730964661,
+        "BIND_star": 0.9999887943267822,
+        "engine": "vienna",
+        "mfe": -19.200000762939453,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.384
+        },
+        "db": "((((((((((((.(((((......)))))...))).)))))...))))..",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.64,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 5,
+          "P_LC": 0.013577006171661665,
+          "homo_run": 4,
+          "k3_entropy": 0.9094866255222556,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.012897959183673473,
+          "gu_density": 0.08163265306122448,
+          "u_run": 9,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.02647496535533514
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 3,
+      "header": "RNA-X_3|len=50|score=0.9754",
+      "score": 0.97538161277771,
+      "scores": {
+        "final": 0.97538161277771,
+        "veto": false,
+        "p_bind": 0.9999997615814209,
+        "bind_conf": 0.9999943971633911,
+        "BIND_star": 0.9999980926513672,
+        "engine": "vienna",
+        "mfe": -17.399999618530273,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.348
+        },
+        "db": "..((((..(((....)))..))))((((((.....)))))).........",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.64,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 6,
+          "P_LC": 0.010494076449955302,
+          "homo_run": 4,
+          "k3_entropy": 0.9300394903336313,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.014122448979591841,
+          "gu_density": 0.10204081632653061,
+          "u_run": 9,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.02461652542954714
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 4,
+      "header": "RNA-X_4|len=50|score=0.9799",
+      "score": 0.9798892140388489,
+      "scores": {
+        "final": 0.9798892140388489,
+        "veto": false,
+        "p_bind": 0.9999736547470093,
+        "bind_conf": 0.9995612502098083,
+        "BIND_star": 0.9998420476913452,
+        "engine": "vienna",
+        "mfe": -14.300000190734863,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.286
+        },
+        "db": "..((((((......))))))((((..(((........)))...))))...",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.62,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 4,
+          "P_LC": 0.007833535140696846,
+          "homo_run": 3,
+          "k3_entropy": 0.9477764323953544,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.012122448979591837,
+          "gu_density": 0.10204081632653061,
+          "u_run": 8,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.019955984120288685
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 5,
+      "header": "RNA-X_5|len=50|score=0.9688",
+      "score": 0.9687537550926208,
+      "scores": {
+        "final": 0.9687537550926208,
+        "veto": false,
+        "p_bind": 0.9999938011169434,
+        "bind_conf": 0.9998838305473328,
+        "BIND_star": 0.9999589920043945,
+        "engine": "vienna",
+        "mfe": -14.300000190734863,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.286
+        },
+        "db": ".......(((((.....)).)))((((((((...)))).)))).......",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.62,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 8,
+          "P_LC": 0.021410541310537202,
+          "homo_run": 2,
+          "k3_entropy": 0.857263057929752,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.009795918367346938,
+          "gu_density": 0.16326530612244897,
+          "u_run": 5,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.03120645967788414
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 6,
+      "header": "RNA-X_6|len=50|score=0.9758",
+      "score": 0.9757524728775024,
+      "scores": {
+        "final": 0.9757524728775024,
+        "veto": false,
+        "p_bind": 0.9997891783714294,
+        "bind_conf": 0.9971213936805725,
+        "BIND_star": 0.9989258050918579,
+        "engine": "vienna",
+        "mfe": -13.600000381469727,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.272
+        },
+        "db": "..(((((.((..(.(((..((...((....))..)).))))..)))))))",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.64,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 8,
+          "P_LC": 0.013851305795171048,
+          "homo_run": 4,
+          "k3_entropy": 0.9076579613655263,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.009346938775510204,
+          "gu_density": 0.12244897959183673,
+          "u_run": 6,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.023198244570681252
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 7,
+      "header": "RNA-X_7|len=50|score=0.9676",
+      "score": 0.9676103591918945,
+      "scores": {
+        "final": 0.9676103591918945,
+        "veto": false,
+        "p_bind": 0.9999912977218628,
+        "bind_conf": 0.9998411536216736,
+        "BIND_star": 0.9999436140060425,
+        "engine": "vienna",
+        "mfe": -14.699999809265137,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.294
+        },
+        "db": "......(((((.((((....))))...))))).((((....).)))....",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.6,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 4,
+          "P_LC": 0.020988152898089262,
+          "homo_run": 5,
+          "k3_entropy": 0.8600789806794049,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.011346938775510206,
+          "gu_density": 0.12244897959183673,
+          "u_run": 7,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.032335091673599464
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 8,
+      "header": "RNA-X_8|len=50|score=0.9745",
+      "score": 0.9744915962219238,
+      "scores": {
+        "final": 0.9744915962219238,
+        "veto": false,
+        "p_bind": 0.9999996423721313,
+        "bind_conf": 0.9999918341636658,
+        "BIND_star": 0.9999971985816956,
+        "engine": "vienna",
+        "mfe": -11.800000190734863,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.236
+        },
+        "db": "..((.(((...((((..((...))..))))...((((...))))))))).",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.6,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 4,
+          "P_LC": 0.016934235516877442,
+          "homo_run": 3,
+          "k3_entropy": 0.8871050965541504,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.00857142857142857,
+          "gu_density": 0.14285714285714285,
+          "u_run": 5,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.025505664088306013
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 9,
+      "header": "RNA-X_9|len=50|score=0.9711",
+      "score": 0.9711135625839233,
+      "scores": {
+        "final": 0.9711135625839233,
+        "veto": false,
+        "p_bind": 0.9999992847442627,
+        "bind_conf": 0.9999843835830688,
+        "BIND_star": 0.9999946355819702,
+        "engine": "vienna",
+        "mfe": -13.800000190734863,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.276
+        },
+        "db": "....((((.((..((((.(((...))).)))..)..)).)))).......",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.62,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 6,
+          "P_LC": 0.012309840934356619,
+          "homo_run": 5,
+          "k3_entropy": 0.9179343937709559,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.01657142857142857,
+          "gu_density": 0.14285714285714285,
+          "u_run": 9,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.02888126950578519
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 10,
+      "header": "RNA-X_10|len=50|score=0.9618",
+      "score": 0.9617584943771362,
+      "scores": {
+        "final": 0.9617584943771362,
+        "veto": false,
+        "p_bind": 0.9999994039535522,
+        "bind_conf": 0.9999868273735046,
+        "BIND_star": 0.9999954700469971,
+        "engine": "vienna",
+        "mfe": -18.200000762939453,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.364
+        },
+        "db": "....(((((((((....)))))))))...((((..((....))..)))).",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.62,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 4,
+          "P_LC": 0.024767770655752978,
+          "homo_run": 4,
+          "k3_entropy": 0.8348815289616468,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.013469387755102043,
+          "gu_density": 0.22448979591836735,
+          "u_run": 5,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.038237158410855024
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 11,
+      "header": "RNA-X_11|len=50|score=0.9679",
+      "score": 0.9679033756256104,
+      "scores": {
+        "final": 0.9679033756256104,
+        "veto": false,
+        "p_bind": 0.999993085861206,
+        "bind_conf": 0.9998714923858643,
+        "BIND_star": 0.9999545216560364,
+        "engine": "vienna",
+        "mfe": -13.100000381469727,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.262
+        },
+        "db": "...((....))..((((((..(((.((.........)))))..)))))).",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.6,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 5,
+          "P_LC": 0.013154617759213743,
+          "homo_run": 5,
+          "k3_entropy": 0.9123025482719084,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.01889795918367347,
+          "gu_density": 0.08163265306122448,
+          "u_run": 12,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.03205257694288721
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 12,
+      "header": "RNA-X_12|len=50|score=0.9678",
+      "score": 0.9677863121032715,
+      "scores": {
+        "final": 0.9677863121032715,
+        "veto": false,
+        "p_bind": 0.9999924898147583,
+        "bind_conf": 0.9998612999916077,
+        "BIND_star": 0.9999508857727051,
+        "engine": "vienna",
+        "mfe": -15.199999809265137,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.304
+        },
+        "db": "....((((.((((((((.((.(....).))...))).))))).))))...",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.62,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 4,
+          "P_LC": 0.019594776826135852,
+          "homo_run": 5,
+          "k3_entropy": 0.8693681544924277,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.012571428571428574,
+          "gu_density": 0.14285714285714285,
+          "u_run": 7,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.03216620539756443
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 13,
+      "header": "RNA-X_13|len=50|score=0.9727",
+      "score": 0.9726909399032593,
+      "scores": {
+        "final": 0.9726909399032593,
+        "veto": false,
+        "p_bind": 0.9999951124191284,
+        "bind_conf": 0.9999067187309265,
+        "BIND_star": 0.999967098236084,
+        "engine": "vienna",
+        "mfe": -10.199999809265137,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.204
+        },
+        "db": ".......(((((((((..((((.(((....))).)))).)))..))))))",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.58,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 6,
+          "P_LC": 0.01315461775921371,
+          "homo_run": 3,
+          "k3_entropy": 0.9123025482719086,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.014122448979591841,
+          "gu_density": 0.10204081632653061,
+          "u_run": 9,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.02727706673880555
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 14,
+      "header": "RNA-X_14|len=50|score=0.9712",
+      "score": 0.9712293148040771,
+      "scores": {
+        "final": 0.9712293148040771,
+        "veto": false,
+        "p_bind": 0.9999994039535522,
+        "bind_conf": 0.9999868273735046,
+        "BIND_star": 0.9999954700469971,
+        "engine": "vienna",
+        "mfe": -13.0,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.26
+        },
+        "db": "....((((((((.....))))...))))((((.(.........).)))).",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.58,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 5,
+          "P_LC": 0.014970382243615027,
+          "homo_run": 3,
+          "k3_entropy": 0.9001974517092332,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.013795918367346938,
+          "gu_density": 0.16326530612244897,
+          "u_run": 7,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.028766300610961963
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 15,
+      "header": "RNA-X_15|len=50|score=0.9716",
+      "score": 0.9715883731842041,
+      "scores": {
+        "final": 0.9715883731842041,
+        "veto": false,
+        "p_bind": 0.9999977350234985,
+        "bind_conf": 0.9999542832374573,
+        "BIND_star": 0.9999840259552002,
+        "engine": "vienna",
+        "mfe": -15.5,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.31
+        },
+        "db": ".(..((((.....))))..)(((((((((((....)))))...)))))).",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.64,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 5,
+          "P_LC": 0.014273694207618986,
+          "homo_run": 4,
+          "k3_entropy": 0.9048420386158734,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.014122448979591841,
+          "gu_density": 0.10204081632653061,
+          "u_run": 9,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.02839614318721083
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 16,
+      "header": "RNA-X_16|len=50|score=0.9704",
+      "score": 0.9703500270843506,
+      "scores": {
+        "final": 0.9703500270843506,
+        "veto": false,
+        "p_bind": 0.9999996423721313,
+        "bind_conf": 0.9999918341636658,
+        "BIND_star": 0.9999971985816956,
+        "engine": "vienna",
+        "mfe": -17.600000381469727,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.352
+        },
+        "db": "......((((((((...(((....)))))))))))((((....))))...",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.62,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 8,
+          "P_LC": 0.013851305795171015,
+          "homo_run": 3,
+          "k3_entropy": 0.9076579613655266,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.01579591836734694,
+          "gu_density": 0.16326530612244897,
+          "u_run": 8,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.029647224162517957
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 17,
+      "header": "RNA-X_17|len=50|score=0.9697",
+      "score": 0.9697383642196655,
+      "scores": {
+        "final": 0.9697383642196655,
+        "veto": false,
+        "p_bind": 0.9999781847000122,
+        "bind_conf": 0.9996307492256165,
+        "BIND_star": 0.9998674392700195,
+        "engine": "vienna",
+        "mfe": -14.5,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.29
+        },
+        "db": ".......((((...((((((((......)))))))))))).((....)).",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.62,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 6,
+          "P_LC": 0.016786146727977642,
+          "homo_run": 3,
+          "k3_entropy": 0.8880923551468157,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.013346938775510204,
+          "gu_density": 0.12244897959183673,
+          "u_run": 8,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.030133085503487846
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 18,
+      "header": "RNA-X_18|len=50|score=0.9721",
+      "score": 0.9721469879150391,
+      "scores": {
+        "final": 0.9721469879150391,
+        "veto": false,
+        "p_bind": 0.9999997615814209,
+        "bind_conf": 0.9999943971633911,
+        "BIND_star": 0.9999980926513672,
+        "engine": "vienna",
+        "mfe": -14.300000190734863,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.286
+        },
+        "db": ".....((((..((.((((....)))).))..)))).((((.....)))).",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.6,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 6,
+          "P_LC": 0.01405527313195472,
+          "homo_run": 4,
+          "k3_entropy": 0.9062981791203019,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.013795918367346938,
+          "gu_density": 0.16326530612244897,
+          "u_run": 7,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.02785119149930166
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 19,
+      "header": "RNA-X_19|len=50|score=0.9741",
+      "score": 0.9741138219833374,
+      "scores": {
+        "final": 0.9741138219833374,
+        "veto": false,
+        "p_bind": 0.999846339225769,
+        "bind_conf": 0.9978317618370056,
+        "BIND_star": 0.9991959929466248,
+        "engine": "vienna",
+        "mfe": -14.699999809265137,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.294
+        },
+        "db": "..(((((.....(((((...((.(....).))...)))))..)))))...",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.62,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 6,
+          "P_LC": 0.013428917382723093,
+          "homo_run": 4,
+          "k3_entropy": 0.9104738841151794,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.011673469387755105,
+          "gu_density": 0.061224489795918366,
+          "u_run": 9,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.0251023867704782
+        }
+      },
+      "length": 50
+    },
+    {
+      "index": 20,
+      "header": "RNA-X_20|len=50|score=0.9705",
+      "score": 0.9704620838165283,
+      "scores": {
+        "final": 0.9704620838165283,
+        "veto": false,
+        "p_bind": 0.9998729228973389,
+        "bind_conf": 0.9981720447540283,
+        "BIND_star": 0.99932461977005,
+        "engine": "vienna",
+        "mfe": -13.0,
+        "stab": 1.0,
+        "stab_meta": {
+          "norm": "per_nt",
+          "per_nt": -0.26
+        },
+        "db": "((((((....))))))..((....))..(((.(((......))))))...",
+        "loop": 1.0,
+        "comp": 1.0,
+        "gc_frac": 0.58,
+        "gc_bin": 1.0,
+        "shape": 1.0,
+        "penalties": {
+          "P_SELF": 0.0,
+          "rc_match": 4,
+          "P_LC": 0.01720853514046433,
+          "homo_run": 4,
+          "k3_entropy": 0.8852764323969045,
+          "P_G4": 0.0,
+          "g4_flag": false,
+          "P_IMM": 0.011673469387755105,
+          "gu_density": 0.061224489795918366,
+          "u_run": 9,
+          "long_ds_frac": 0.0,
+          "P_RIBO": 0.0,
+          "ribo_meta": {
+            "hits": {
+              "hammerhead": 0,
+              "hdv": 0,
+              "twister": 0,
+              "hairpin": 0
+            },
+            "tri_stem": true
+          },
+          "P_TX": 0.0,
+          "tx_meta": {
+            "tags": []
+          },
+          "P_TOTAL": 0.028882004528219436
+        }
+      },
+      "length": 50
+    }
+  ]
+}
