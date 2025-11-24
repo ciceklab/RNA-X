@@ -57,6 +57,8 @@ rna-x/
 ├── src/                    # Source code for models, data handling, and utilities.
 │   ├── models/
 │   ├── data/
+|   ├── generation/  
+|   ├── representation/  
 │   ├── layers/
 │   └── utils/
 └── examples/               # Example inputs and outputs.
