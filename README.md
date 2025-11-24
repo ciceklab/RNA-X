@@ -193,7 +193,7 @@ If you use RNA-X in your research, please consider citing our work
 
 ## Contact
 
-For questions or comments regarding RNAtranslator, please contact:
+For questions or comments regarding RNA-X, please contact:
 
 - **Sobhan Shukueian Tabrizi:** [shukueian@gmail.com](mailto:shukueian@gmail.com)  
 
