@@ -55,10 +55,10 @@ conda activate rnax
 Pretrained RNA-X weights and the evaluation models are available on Zenodo:
 **[https://doi.org/10.5281/zenodo.24343869](https://doi.org/10.5281/zenodo.24343869)**
 
-Download `rnax_weights.zip` and extract it into the root of this repository:
+Download `weights.zip` and extract it into the root of this repository:
 
 ```bash
-unzip rnax_weights.zip          # creates ./weights/
+unzip weights.zip          # creates ./weights/
 ```
 
 This produces the following structure, which matches the default paths used by
