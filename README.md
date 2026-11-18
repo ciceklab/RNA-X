@@ -23,7 +23,9 @@ Sobhan Shukueian Tabrizi, Helyasadat Hashemi Aghdam, A. Ercument Cicek
 # Table of Contents
 
 - [Installation](#installation)
+- [Model Weights](#model-weights)
 - [File & Folder Structure](#file--folder-structure)
+- [Usage](#usage)
   - [Training](#training)
   - [Generation](#generation)
   - [Representation](#representation)
@@ -46,6 +48,36 @@ conda env create --name rnax -f environment.yml
 conda activate rnax
 ```
 
+---
+
+# Model Weights
+
+Pretrained RNA-X weights and the evaluation models are available on Zenodo:
+**[https://doi.org/10.5281/zenodo.24343869](https://doi.org/10.5281/zenodo.24343869)**
+
+Download `rnax_weights.zip` and extract it into the root of this repository:
+
+```bash
+unzip rnax_weights.zip          # creates ./weights/
+```
+
+This produces the following structure, which matches the default paths used by
+the scripts below, so no arguments need changing:
+
+```
+weights/
+├── checkpoint/             # Base RNA-X model (generation.py, embeddings.py)
+├── prediction/             # Scoring models used to filter generated RNAs
+└── representation/         # Modality-specific representation heads
+```
+
+If you place the weights elsewhere, pass the location explicitly via
+`--model-path`, `--prediction-model-dir`, `--base-model-path` and
+`--rt-model-path`.
+
+The same Zenodo record contains `deepclip_models.zip`, the per-protein DeepCLIP
+models used to evaluate binding affinity of the designed RNA sequences.
+
 ## File & Folder Structure
 
 ```
@@ -54,6 +86,7 @@ rna-x/
 ├── generation.py             # RNA generation.
 ├── embeddings.py             # RNA + Target representation.
 ├── environment.yml         # Conda environment file.
+├── weights/                # Pretrained checkpoints (download from Zenodo).
 ├── src/                    # Source code for models, data handling, and utilities.
 │   ├── models/
 │   ├── data/
@@ -182,7 +215,10 @@ t_emb.size(), r_emb.size()
 
 ## Citations
 
-If you use RNA-X in your research, please consider citing our work
+If you use RNA-X in your research, please consider citing our work.
+
+If you use the pretrained weights or the evaluation models, please also cite
+the Zenodo record: [https://doi.org/10.5281/zenodo.24343869](https://doi.org/10.5281/zenodo.24343869)
 
 ---
 
